@@ -7,7 +7,7 @@ const Categories = ({categories}) => {
         
           <div className="flex flex-col gap-2">
               {categories?.map(category =>(
-             <Link key={category.category} to='/category'  className="btn bg-red-500">{category.category}</Link>
+             <Link key={category.category} to={`/category/${category.category}`}  className="btn bg-red-500">{category.category}</Link>
             ))}
           </div>
      

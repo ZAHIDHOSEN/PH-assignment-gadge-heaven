@@ -151,23 +151,8 @@
       ],
       "availability": false,
       "rating": 4.3
-    },
-    {
-        "product_id": "SWT001",
-        "product_title": "Apple Watch Series 7",
-        "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
-        "category": "Smartwatch",
-        "price": 399.99,
-        "description": "A smartwatch with health tracking, fitness metrics, and seamless integration with iPhone.",
-        "Specification": [
-          "45mm Retina Display",
-          "Heart Rate Sensor",
-          "GPS",
-          "Water Resistant",
-          "watchOS"
-        ],
-        "availability": true,
-        "rating": 4.8
-      }
+    }
+ 
+
   ]
   

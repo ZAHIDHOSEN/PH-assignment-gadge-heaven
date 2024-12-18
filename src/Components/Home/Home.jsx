@@ -14,21 +14,28 @@ const Home = () => {
             <h2 className='text-center font-bold text-black text-4xl'>Explore Cutting-Edge Gadgets</h2>
 
 
-            <div className='grid grid-cols-4'>
+            <div className='grid grid-cols-4 border border-green-700 mt-32'>
            
-                <div>
-                    
-                    <Categories categories={categories}></Categories>
+                <div className='flex border border-black'>
+
+
+                <Categories categories={categories}></Categories>
+                </div>
+               
 
                
                 <div className='col-span-3'>
+                         
+                
 
                     <Outlet></Outlet>
+
+                    
                  
 
                     </div>
 
-                </div>
+               
 
                 </div>
            
