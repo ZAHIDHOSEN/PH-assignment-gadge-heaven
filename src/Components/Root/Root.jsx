@@ -5,11 +5,28 @@ import NavBar from "../NavBar/NavBar";
 
 const Root = () => {
     return (
-        <div className="w-11/12 mx-auto">
+        <div>
+
+            <nav className="">
+                
             <NavBar></NavBar>
-            
+
+            </nav>
+
+            <div className="mb-80">
             <Outlet></Outlet>
-            <Footer></Footer>
+            </div>
+
+            <div>
+                <Footer></Footer>
+            </div>
+        
+            
+           
+          
+
+           
+            
         </div>
     );
 };

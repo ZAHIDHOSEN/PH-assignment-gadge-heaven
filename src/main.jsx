@@ -11,6 +11,8 @@ import Root from './Components/Root/Root';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
 import DashBoard from './Components/DashBoard/DashBoard';
+import Statistics from './Components/Statistics/Statistics';
+import Cards from './Components/Cards/Cards';
 
 const router = createBrowserRouter([
   {
@@ -20,13 +22,30 @@ const router = createBrowserRouter([
     children: [
       {
         path:'/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: () =>fetch('../categories.json'),
+        children:[
+          {
+            path:'/category',
+            element:<Cards></Cards>
+
+          }
+
+        ],
+        
       },
       {
         path: 'dashboard',
         element: <DashBoard></DashBoard>
+      },
+      {
+        path: 'statistics',
+        element: <Statistics></Statistics>
       }
+
+
     ]
+
   },
 ]);
 

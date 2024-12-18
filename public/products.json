@@ -1,0 +1,173 @@
+[
+    {
+      "product_id": "LAP123",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.postimg.cc/63BFzNC3/anete-lusina-zws-Hjak-E-i-I-unsplash.jpg",
+      "category": "Laptop",
+      "price": 999.99,
+      "description": "A high-performance laptop with a 13-inch display, ideal for productivity and entertainment.",
+      "Specification": [
+        "Intel Core i7 Processor",
+        "16GB RAM",
+        "512GB SSD",
+        "13.3-inch FHD Display",
+        "Windows 10"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "LAP124",
+      "product_title": "MacBook Pro 14",
+      "product_image": "https://i.postimg.cc/7htvfQGL/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg",
+      "category": "Laptop",
+      "price": 1999.99,
+      "description": "Apple's powerful laptop with the M1 Pro chip, designed for professionals and creators.",
+      "Specification": [
+        "Apple M1 Pro Chip",
+        "16GB RAM",
+        "512GB SSD",
+        "14-inch Liquid Retina Display",
+        "macOS"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "LAP125",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.postimg.cc/7htvfQGL/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg",
+      "category": "Laptop",
+      "price": 1249.99,
+      "description": "A versatile 2-in-1 laptop with a stunning design and touch display.",
+      "Specification": [
+        "Intel Core i5 Processor",
+        "8GB RAM",
+        "256GB SSD",
+        "13.3-inch Touch Display",
+        "Windows 11"
+      ],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": "PHN101",
+      "product_title": "iPhone 14",
+      "product_image": "",
+      "category": "Phone",
+      "price": 899.99,
+      "description": "The latest iPhone with advanced camera capabilities and A15 Bionic chip.",
+      "Specification": [
+        "6.1-inch OLED Display",
+        "A15 Bionic Chip",
+        "128GB Storage",
+        "12MP Dual-Camera",
+        "iOS 16"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "PHN102",
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://i.postimg.cc/hGVqprwC/istockphoto-1016488618-1024x1024.jpg",
+      "category": "Phone",
+      "price": 799.99,
+      "description": "A premium Android smartphone with a high-quality display and powerful camera.",
+      "Specification": [
+        "6.2-inch AMOLED Display",
+        "Exynos 2200 Processor",
+        "128GB Storage",
+        "50MP Triple-Camera",
+        "Android 12"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "PHN103",
+      "product_title": "Google Pixel 6",
+      "product_image": "https://i.postimg.cc/Nj3c6VN9/istockphoto-1161327519-1024x1024.jpg",
+      "category": "Phone",
+      "price": 599.99,
+      "description": "Google's latest smartphone with a focus on AI-driven camera technology.",
+      "Specification": [
+        "6.4-inch OLED Display",
+        "Google Tensor Processor",
+        "128GB Storage",
+        "50MP Dual-Camera",
+        "Android 12"
+      ],
+      "availability": false,
+      "rating": 4.4
+    },
+    {
+      "product_id": "SWT001",
+      "product_title": "Apple Watch Series 7",
+      "product_image": "https://i.postimg.cc/kGTCWgZq/kiran-ck-Uk-O7-K1-CPFS8-unsplash.jpg",
+      "category": "Smartwatch",
+      "price": 399.99,
+      "description": "A smartwatch with health tracking, fitness metrics, and seamless integration with iPhone.",
+      "Specification": [
+        "45mm Retina Display",
+        "Heart Rate Sensor",
+        "GPS",
+        "Water Resistant",
+        "watchOS"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "SWT002",
+      "product_title": "Samsung Galaxy Watch 4",
+      "product_image": "https://i.postimg.cc/fLhMNFmn/kiran-ck-rn-O8g-RGia3s-unsplash.jpg",
+      "category": "Smartwatch",
+      "price": 249.99,
+      "description": "Samsung's latest smartwatch, featuring fitness tracking and Wear OS.",
+      "Specification": [
+        "44mm Super AMOLED Display",
+        "Heart Rate Monitor",
+        "GPS",
+        "Water Resistant",
+        "Wear OS"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "SWT003",
+      "product_title": "Fitbit Versa 3",
+      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "category": "Smartwatch",
+      "price": 229.99,
+      "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
+      "Specification": [
+        "1.58-inch Display",
+        "Heart Rate Monitor",
+        "GPS",
+        "6+ Days Battery Life",
+        "Fitbit OS"
+      ],
+      "availability": false,
+      "rating": 4.3
+    },
+    {
+        "product_id": "SWT001",
+        "product_title": "Apple Watch Series 7",
+        "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+        "category": "Smartwatch",
+        "price": 399.99,
+        "description": "A smartwatch with health tracking, fitness metrics, and seamless integration with iPhone.",
+        "Specification": [
+          "45mm Retina Display",
+          "Heart Rate Sensor",
+          "GPS",
+          "Water Resistant",
+          "watchOS"
+        ],
+        "availability": true,
+        "rating": 4.8
+      }
+  ]
+  
