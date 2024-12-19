@@ -34,21 +34,21 @@
       "rating": 4.8
     },
     {
-      "product_id": "LAP125",
-      "product_title": "HP Spectre x360",
-      "product_image": "https://i.postimg.cc/7htvfQGL/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg",
-      "category": "Laptop",
-      "price": 1249.99,
-      "description": "A versatile 2-in-1 laptop with a stunning design and touch display.",
+      "product_id": "SWT003",
+      "product_title": "Fitbit Versa 3",
+      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "category": "Smartwatch",
+      "price": 229.99,
+      "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
       "Specification": [
-        "Intel Core i5 Processor",
-        "8GB RAM",
-        "256GB SSD",
-        "13.3-inch Touch Display",
-        "Windows 11"
+        "1.58-inch Display",
+        "Heart Rate Monitor",
+        "GPS",
+        "6+ Days Battery Life",
+        "Fitbit OS"
       ],
       "availability": false,
-      "rating": 4.5
+      "rating": 4.3
     },
     {
       "product_id": "PHN101",
@@ -85,21 +85,21 @@
       "rating": 4.5
     },
     {
-      "product_id": "PHN103",
-      "product_title": "Google Pixel 6",
-      "product_image": "https://i.postimg.cc/Nj3c6VN9/istockphoto-1161327519-1024x1024.jpg",
-      "category": "Phone",
-      "price": 599.99,
-      "description": "Google's latest smartphone with a focus on AI-driven camera technology.",
+      "product_id": "SWT003",
+      "product_title": "Fitbit Versa 3",
+      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "category": "Smartwatch",
+      "price": 229.99,
+      "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
       "Specification": [
-        "6.4-inch OLED Display",
-        "Google Tensor Processor",
-        "128GB Storage",
-        "50MP Dual-Camera",
-        "Android 12"
+        "1.58-inch Display",
+        "Heart Rate Monitor",
+        "GPS",
+        "6+ Days Battery Life",
+        "Fitbit OS"
       ],
       "availability": false,
-      "rating": 4.4
+      "rating": 4.3
     },
     {
       "product_id": "SWT001",
@@ -135,6 +135,24 @@
       "availability": true,
       "rating": 4.6
     },
+    {
+      "product_id": "SWT003",
+      "product_title": "Fitbit Versa 3",
+      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "category": "Smartwatch",
+      "price": 229.99,
+      "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
+      "Specification": [
+        "1.58-inch Display",
+        "Heart Rate Monitor",
+        "GPS",
+        "6+ Days Battery Life",
+        "Fitbit OS"
+      ],
+      "availability": false,
+      "rating": 4.3
+    },
+
     {
       "product_id": "SWT003",
       "product_title": "Fitbit Versa 3",

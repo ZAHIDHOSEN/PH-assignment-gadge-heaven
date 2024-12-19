@@ -11,10 +11,10 @@ const Home = () => {
         <div>
             <Banner></Banner>
             
-            <h2 className='text-center font-bold text-black text-4xl'>Explore Cutting-Edge Gadgets</h2>
+            <h2 className='text-center font-bold text-black text-4xl mt-60'>Explore Cutting-Edge Gadgets</h2>
 
 
-            <div className='grid grid-cols-4 border border-green-700 mt-32'>
+            <div className='grid grid-cols-4 border border-green-700 my-12'>
            
                 <div className='flex border border-black'>
 

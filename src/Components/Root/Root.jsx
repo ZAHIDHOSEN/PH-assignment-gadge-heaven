@@ -7,13 +7,16 @@ const Root = () => {
     return (
         <div>
 
-            <nav className="">
-                
+            <div className="h-16">
             <NavBar></NavBar>
 
-            </nav>
+            </div>
+                
+            
 
-            <div className="mb-80">
+            
+
+            <div className="mb-20">
             <Outlet></Outlet>
             </div>
 
