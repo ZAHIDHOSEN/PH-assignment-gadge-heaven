@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToStoredCart } from '../../index';
+
 
 const Details = () => {
     const data = useLoaderData();
@@ -11,6 +13,12 @@ const Details = () => {
      },[data,id])
 
      const {product_id, product_title, product_image,category,price,description,Specification,rating} =product || {}
+
+     const handleAddToCart = (id) =>{
+
+        addToStoredCart(id);
+
+     }
    
     return (
         <div>
@@ -54,8 +62,12 @@ const Details = () => {
                        defaultChecked />
                        <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                        {rating}
+                 
                       </div>
-                      
+                     <div>
+                     <button onClick={() =>handleAddToCart(id)}  className='btn bg-purple-500'>Add to card</button>
+                     </div>
+                     
                      
 
 
@@ -63,11 +75,13 @@ const Details = () => {
                       
 
                     </div>
+                    
 
 
                
 
            </div>
+         
         </div>
         
     );
