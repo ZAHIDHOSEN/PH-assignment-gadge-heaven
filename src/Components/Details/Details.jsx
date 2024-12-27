@@ -14,14 +14,15 @@ const Details = () => {
    
     return (
         <div>
-           <div className='bg-purple-700 '>
+           <div className='bg-purple-700 ' >
             <div className=''>
                 <h3 className='text-3xl font-bold text-white text-center'>Product Details</h3>
                 <p className='text-gray-300 text-center'>Explore the largest gadet haven in Bangladesh.We are working togeather to serving best quality product</p>
                 </div>
                 </div>
+                
 
-                <div className='flex justify-center gap-6'>
+                <div className='flex justify-center gap-6 absolute'>
                     <div>
                         <img src={product_image} alt="" />
                     </div>
@@ -68,6 +69,7 @@ const Details = () => {
 
            </div>
         </div>
+        
     );
 };
 

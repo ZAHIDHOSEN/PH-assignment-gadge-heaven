@@ -16,7 +16,7 @@ const Root = () => {
 
             
 
-            <div className="mb-20">
+            <div className="mb-96">
             <Outlet></Outlet>
             </div>
 
