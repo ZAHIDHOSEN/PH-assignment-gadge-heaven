@@ -7,6 +7,7 @@ import CartCard from './CartCard';
 const Cart = () => {
 
         const [addCart, setAddCart] = useState([])
+        const [sort, setSort] = useState('');
     
         const allProducts = useLoaderData();
     
@@ -26,6 +27,16 @@ const Cart = () => {
         
             },[])
 
+            const handleSort = sortType =>{
+                setSort(sortType);
+
+               if(sortType === 'price'){
+                const addSort = [...addCart] 
+                const sortedAddCart = addSort.sort((a,b) => b.price - a.price)
+                setAddCart(sortedAddCart)
+               }
+            }
+
 
     return (
         <div>
@@ -35,7 +46,7 @@ const Cart = () => {
                 </div>
                 <div className='flex gap-5 items-center'>
                     <h2 className='text-xl font-bold'>Total cost: 999.99</h2>
-                    <button className='btn rounded-lg'>Sort by price</button>
+                    <button onClick={() => handleSort('price')} className='btn rounded-lg'>{sort ? `sort by:${sort}`:'sort by price'}</button>
                     <button className='btn bg-purple-600 text-white'>Purches</button>
                 </div>
             </div>

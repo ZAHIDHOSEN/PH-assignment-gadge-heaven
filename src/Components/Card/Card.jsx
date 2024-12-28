@@ -11,6 +11,7 @@ const Card = ({product}) => {
 <div className="card card-compact bg-base-100 shadow-xl ">
   <figure>
     <img
+    className='h-60 py-2 rounded-xl w-full'
       src={product_image}
       alt="image" />
   </figure>

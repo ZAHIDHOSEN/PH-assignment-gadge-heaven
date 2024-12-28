@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { CiHeart } from "react-icons/ci";
+import { CiShoppingCart } from "react-icons/ci"
 
 const NavBar = () => {
 
@@ -44,8 +46,10 @@ const NavBar = () => {
        
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="navbar-end gap-2">
+         
+          <a className="btn"><CiShoppingCart /></a>
+          <a className="btn"><CiHeart /></a>
         </div>
       </div>
     );

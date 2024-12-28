@@ -17,6 +17,9 @@ import Details from './Components/Details/Details';
 import Cart from './Components/Cart/Cart';
 import Wishlist from './Wishlist/Wishlist';
 
+import { ToastContainer} from 'react-toastify';
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -56,7 +59,8 @@ const router = createBrowserRouter([
           },
           {
             path: 'wishlist',
-            element: <Wishlist></Wishlist>
+            element: <Wishlist></Wishlist>,
+            loader: () => fetch('../products.json')
           }
 
         ]
@@ -80,6 +84,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+     <ToastContainer />
       <RouterProvider router={router} />
   </StrictMode>,
 )

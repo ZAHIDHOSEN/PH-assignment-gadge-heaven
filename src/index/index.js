@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 
 const getStoredCart = () =>{
     const storedCartStr = localStorage.getItem('add-cart');
@@ -24,6 +25,7 @@ const addToStoredCart = (id) =>{
     storedCart.push(id);
     const storedCartStr = JSON.stringify(storedCart);
     localStorage.setItem('add-cart', storedCartStr)
+    toast('This product is added to cart')
    }
 }
 

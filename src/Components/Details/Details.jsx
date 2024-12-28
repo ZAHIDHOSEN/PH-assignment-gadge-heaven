@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import { addToStoredCart } from '../../index';
+import { addToStoredCart, addToStoredWish } from '../../index';
+import { CiHeart } from "react-icons/ci";
 
 
 const Details = () => {
@@ -18,6 +19,10 @@ const Details = () => {
 
         addToStoredCart(id);
 
+     }
+
+     const handleWishList = (id) =>{
+        addToStoredWish(id);
      }
    
     return (
@@ -65,7 +70,8 @@ const Details = () => {
                  
                       </div>
                      <div>
-                     <button onClick={() =>handleAddToCart(id)}  className='btn bg-purple-500'>Add to card</button>
+                     <button onClick={() =>handleAddToCart(id)}  className='btn bg-purple-500 mr-2'>Add to card</button>
+                     <button className='btn' onClick={() =>handleWishList(id)}><CiHeart /></button>
                      </div>
                      
                      
@@ -74,7 +80,7 @@ const Details = () => {
                       
                       
 
-                    </div>
+                    </div> 
                     
 
 

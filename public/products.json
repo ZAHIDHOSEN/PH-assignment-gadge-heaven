@@ -2,7 +2,7 @@
     {
       "product_id": "LAP123",
       "product_title": "Dell XPS 13",
-      "product_image": "https://i.postimg.cc/63BFzNC3/anete-lusina-zws-Hjak-E-i-I-unsplash.jpg",
+      "product_image": "https://i.postimg.cc/Gp7rkTSH/pexels-morningtrain-18105.jpg",
       "category": "Laptop",
       "price": 999.99,
       "description": "A high-performance laptop with a 13-inch display, ideal for productivity and entertainment.",
@@ -19,7 +19,7 @@
     {
       "product_id": "LAP124",
       "product_title": "MacBook Pro 14",
-      "product_image": "https://i.postimg.cc/7htvfQGL/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg",
+      "product_image": "https://i.postimg.cc/y8KVBHZY/pexels-pixabay-40185.jpg",
       "category": "Laptop",
       "price": 1999.99,
       "description": "Apple's powerful laptop with the M1 Pro chip, designed for professionals and creators.",
@@ -36,7 +36,7 @@
     {
       "product_id": "SWT003",
       "product_title": "Fitbit Versa 3",
-      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "product_image": "https://i.postimg.cc/s2LhXxyR/rb-2148515661.png",
       "category": "Smartwatch",
       "price": 229.99,
       "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
@@ -53,7 +53,7 @@
     {
       "product_id": "PHN101",
       "product_title": "iPhone 14",
-      "product_image": "",
+      "product_image": "https://i.postimg.cc/yNntMqF5/pexels-jessbaileydesign-788946.jpg",
       "category": "Phone",
       "price": 899.99,
       "description": "The latest iPhone with advanced camera capabilities and A15 Bionic chip.",
@@ -70,7 +70,7 @@
     {
       "product_id": "PHN102",
       "product_title": "Samsung Galaxy S22",
-      "product_image": "https://i.postimg.cc/hGVqprwC/istockphoto-1016488618-1024x1024.jpg",
+      "product_image": "https://i.postimg.cc/W1LBrwN9/pexels-zion-10104406.jpg",
       "category": "Phone",
       "price": 799.99,
       "description": "A premium Android smartphone with a high-quality display and powerful camera.",
@@ -85,9 +85,9 @@
       "rating": 4.5
     },
     {
-      "product_id": "SWT003",
+      "product_id": "SWT004",
       "product_title": "Fitbit Versa 3",
-      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "product_image": "https://i.postimg.cc/R02WmYQS/rb-2148555261.png",
       "category": "Smartwatch",
       "price": 229.99,
       "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
@@ -104,7 +104,7 @@
     {
       "product_id": "SWT001",
       "product_title": "Apple Watch Series 7",
-      "product_image": "https://i.postimg.cc/kGTCWgZq/kiran-ck-Uk-O7-K1-CPFS8-unsplash.jpg",
+      "product_image": "https://i.postimg.cc/sXS4C7WL/rb-27882.png",
       "category": "Smartwatch",
       "price": 399.99,
       "description": "A smartwatch with health tracking, fitness metrics, and seamless integration with iPhone.",
@@ -121,7 +121,7 @@
     {
       "product_id": "SWT002",
       "product_title": "Samsung Galaxy Watch 4",
-      "product_image": "https://i.postimg.cc/fLhMNFmn/kiran-ck-rn-O8g-RGia3s-unsplash.jpg",
+      "product_image": "https://i.postimg.cc/3rG9p5kT/pexels-ekaterina-bolovtsova-6372999.jpg",
       "category": "Smartwatch",
       "price": 249.99,
       "description": "Samsung's latest smartwatch, featuring fitness tracking and Wear OS.",
@@ -136,9 +136,9 @@
       "rating": 4.6
     },
     {
-      "product_id": "SWT003",
+      "product_id": "SWT005",
       "product_title": "Fitbit Versa 3",
-      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "product_image": "https://i.postimg.cc/Znz8jnWh/pexels-tdcat-437038.jpg",
       "category": "Smartwatch",
       "price": 229.99,
       "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
@@ -154,9 +154,9 @@
     },
 
     {
-      "product_id": "SWT003",
+      "product_id": "SWT006",
       "product_title": "Fitbit Versa 3",
-      "product_image": "https://i.postimg.cc/66ryyVpf/daniel-korpai-w-W7-Xb-WYoq-K8-unsplash-1.jpg",
+      "product_image": "https://i.postimg.cc/Rh1cYmtJ/pexels-tdcat-437037.jpg",
       "category": "Smartwatch",
       "price": 229.99,
       "description": "A fitness-focused smartwatch with built-in GPS and heart rate tracking.",
